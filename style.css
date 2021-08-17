@@ -1,0 +1,317 @@
+html{ background-color: #FDBCB4;}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffff; color: red; 
+    width: auto; 
+    height: 150px; 
+    border-color: white; 
+    border-style: solid; 
+    border-width: 1px; 
+    border-radius: 10px;
+}
+
+.hamburguesa{
+    position: fixed; 
+    z-index: 10;
+    top: 175px; 
+    right: 30px; 
+    background: #fff; 
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+.hamburguesa1{
+    position: fixed; 
+    z-index: 10;
+    top: 175px; 
+    right: 30px; 
+    background: #fff; 
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    box-shadow: 0 0 6px rgba(255, 255, 255, 100);
+}
+
+.Categorias{
+    position: fixed; 
+    top: 162px; 
+    right: 0; 
+    width: 25%; 
+    height: 55%; 
+    background-image: linear-gradient(133deg, #63c5da 0%, #ff0000 150%, #fff 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform .3s ease-in-out;
+    transform: translate(110%);
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.Categorias a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.spread{
+    transform: translate(0);
+}
+
+.logo{
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    
+}
+
+.inicioa{
+    position:  fixed;
+    top: 135px;
+    right: 120px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buscador{
+    position: fixed;
+    width: 500px;
+    height: 20px;
+    top: 105px;
+    left: 600px;
+    size: none;
+}
+
+.iconobuscar{
+    position: fixed;
+    top: 105px;
+    right: 520px;
+    width: 50px;
+    height: 30px;
+}
+
+#buscar{
+    position: fixed;
+    top: 15px;
+    right: 750px;
+    color: rebeccapurple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ofertas{
+    position: fixed;
+    top: 250px;
+    left: 50px;
+    width: 93%;
+    height: 300px;
+    background-color:rgba(0, 0, 0, .5);
+}
+
+#otext{
+    color: seashell;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    left: 250px;
+}
+
+#otext1{
+    color: seashell;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    left: 350px;
+    top: 350px;
+}
+#otext2{
+    color: seashell;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    left: 850px;
+    top: 350px;
+}
+#otext3{
+    color: seashell;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    left: 1350px;
+    top: 350px;
+}
+.oferta1{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    left: 130px;
+    top: 325px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 1);
+}
+.oferta2{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    left: 630px;
+    top: 325px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 1);
+}
+.oferta3{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    left: 1130px;
+    top: 325px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 1);
+}
+
+#carrito1{
+    position: fixed;
+    left: 950px;
+    top: 450px;
+    width: 60px;
+    height: 60px;
+}
+
+#comprarya1{
+    position: fixed;
+    left: 860px;
+    top: 450px;
+    width: 60px;
+    height: 60px;
+}
+#carrito2{
+    position: fixed;
+    left: 1450px;
+    top: 450px;
+    width: 60px;
+    height: 60px;
+}
+
+#comprarya2{
+    position: fixed;
+    left: 1360px;
+    top: 450px;
+    width: 60px;
+    height: 60px;
+}
+#carrito3{
+    position: fixed;
+    left: 450px;
+    top: 450px;
+    width: 60px;
+    height: 60px;
+}
+
+#comprarya3{
+    position: fixed;
+    left: 360px;
+    top: 450px;
+    width: 60px;
+    height: 60px;
+}
+#carrito4{
+    position: fixed;
+    left: 950px;
+    top: 800px;
+    width: 60px;
+    height: 60px;
+}
+
+#comprarya4{
+    position: fixed;
+    left: 860px;
+    top: 800px;
+    width: 60px;
+    height: 60px;
+}
+#carrito5{
+    position: fixed;
+    left: 1450px;
+    top: 800px;
+    width: 60px;
+    height: 60px;
+}
+
+#comprarya5{
+    position: fixed;
+    left: 1360px;
+    top: 800px;
+    width: 60px;
+    height: 60px;
+}
+#carrito6{
+    position: fixed;
+    left: 450px;
+    top: 800px;
+    width: 60px;
+    height: 60px;
+}
+
+#comprarya6{
+    position: fixed;
+    left: 360px;
+    top: 800px;
+    width: 60px;
+    height: 60px;
+}
+
+.recomendacion{
+    position: fixed;
+    top: 600px;
+    left: 50px;
+    width: 93%;
+    height: 300px;
+    background-color:rgba(0, 0, 0, .5);
+}
+
+#rtext{
+    color: seashell;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    left: 250px;
+}
+
+#rtext1{
+    color: seashell;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    left: 350px;
+    top: 700px;
+}
+#rtext2{
+    color: seashell;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    left: 850px;
+    top: 700px;
+}
+#rtext3{
+    color: seashell;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    left: 1350px;
+    top: 700px;
+}
+    .reco1{
+        position: fixed;
+        width: 200px;
+        height: 200px;
+        left: 130px;
+        top: 675px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 1);
+    }
+    .reco2{
+        position: fixed;
+        width: 200px;
+        height: 200px;
+        left: 630px;
+        top: 675px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 1);
+    }
+    .reco3{
+        position: fixed;
+        width: 200px;
+        height: 200px;
+        left: 1130px;
+        top: 675px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 1);
+    }
